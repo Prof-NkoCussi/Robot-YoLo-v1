@@ -69,7 +69,9 @@ flowchart LR
 
 ## Conexiones
 
-Diagrama completo en Cirkit Designer: ![Diagrama de conexiones](hardware/diagrama-yolo-v1.png)
+Diagrama completo, hecho en Cirkit Designer ([versión SVG para hacer zoom](hardware/diagrama-yolo-v1.svg)):
+
+![Diagrama de conexiones](hardware/diagrama-yolo-v1.png)
 
 ### ESP32-CAM → L298N
 
@@ -157,11 +159,12 @@ El armado sigue el [flujo de armado de robots](docs/flujo-armado-robots.md).
 ## Estructura del repositorio
 
 ```text
-yolo/
+Robot-YoLo-v1/
 ├── docs/
 │   └── flujo-armado-robots.md   # Reglas y fases de armado
 ├── hardware/
 │   ├── diagrama-yolo-v1.png     # Diagrama exportado de Cirkit
+│   ├── diagrama-yolo-v1.svg     # Mismo diagrama, para hacer zoom
 │   └── fotos/                   # Fotos del armado
 ├── simulacion/                  # Proyectos de Wokwi (Fase 2b)
 ├── firmware/                    # Código de la ESP32-CAM (Fase 5)
