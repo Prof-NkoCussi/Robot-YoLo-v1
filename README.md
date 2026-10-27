@@ -1,4 +1,4 @@
-# 🤖 YoLo — Robot móvil con cámara controlado por red local
+# 🤖 YoLo v1 — Robot móvil con cámara controlado por red local
 
 ![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-AI--Thinker-E7352C?logo=espressif&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-Mosquitto-660066?logo=eclipsemosquitto&logoColor=white)
